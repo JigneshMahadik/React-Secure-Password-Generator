@@ -2,7 +2,7 @@
   text-align: center;
   display: flex;
   padding: 2rem;
-  background-color: #61dafb;
+  /* background-color: #61dafb; */
 }
 
 .App-logo {
@@ -42,7 +42,33 @@
 
 
 .cont{
-  background-color: red;
+  background-color: rgb(15, 41, 43);
   margin: auto;
-
+  margin-top: 5rem;
+  padding: 2rem;
+  color: white;
+  border-radius: 5px;
+}
+.cont h1{
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.inputs{
+  float: left;
+  /* display: flex; */
+  flex-direction: column;
+  /* background-color: red; */
+}
+.btn{
+  background-color: rgb(37, 93, 90);
+  border: none;
+  padding: 10px;
+  width: 150px;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+#copy{
+  display: none;
 }
